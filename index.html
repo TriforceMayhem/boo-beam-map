@@ -207,8 +207,7 @@
 			frame_height = Math.min(frame_height, window.innerHeight);
 		}
 
-		// as big as will fit in a frame..
-		csize =  Math.min(frame_width,frame_height);
+		csize =  Math.min(384,384);
 
 		// .. but never more than 2/3 of longest side for touch (e.g. leave space for controls on iPad)
 		if (p8_touch_detected && p8_is_running)
